@@ -4,6 +4,6 @@
  * Or you will be very sad.
  */
 const getRawStory = () => {
-  return fetch('./story.txt')
-    .then(response => response.text());
-};
+    return fetch('./story.txt')
+      .then(response => response.text());
+  };
